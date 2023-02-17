@@ -22,12 +22,18 @@ sayilar = [1,3,5,7,9,12,19,21]
 
 sehirler = ['kocaeli', 'istanbul', 'ankara', 'izmir', 'rize', 'ağrı', 'kesici']
 
+#4
 # for x in sehirler:
 #     i = 0
 #     for y in x:
 #         i = i + 1
 #     if i <= 6:
 #         print(x)
+#################################
+# for sehir in sehirler:
+#     if (len(sehir) <= 5):
+#         print(sehir)
+
 
 urunler = [
     {'name':'samsung S5', 'price': '3000'},
@@ -45,6 +51,6 @@ urunler = [
 # print(toplam)
 
 #6
-# for telefon in urunler:
-#     if int(telefon['price']) <= 5000:
-#         print(telefon['name'])
+for telefon in urunler:
+    if int(telefon['price']) <= 5000:
+        print(telefon['name'])
